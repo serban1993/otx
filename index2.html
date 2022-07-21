@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<!-- Template by quackit.com -->
+<html>
+	<head>
+
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>OTELINOX - HEAT TREATMENT - TECHNICAL DOCUMENTATION</title>
+		<style type="text/css">
+	
+		body {
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			height: 100%; 
+			max-height: 100%; 
+			font-family:Sans-serif;
+			line-height: 1.5em;
+		}
+
+		main {
+			position: fixed;
+			top: 70px; /* Set this to the height of the header */
+			bottom: 50px; /* Set this to the height of the footer */
+			left: 230px; 
+			right: 0;
+			overflow: auto; 
+			background: #fff;
+		}
+				
+		#header {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100px; 
+			overflow: hidden; /* Disables scrollbars on the header frame. To enable scrollbars, change "hidden" to "scroll" */
+			background: #BCCE98;
+		}
+
+		#footer {
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			width: 100%;
+			height: 50px; 
+			overflow: hidden; /* Disables scrollbars on the footer frame. To enable scrollbars, change "hidden" to "scroll" */
+			background: #BCCE98;
+		}
+				
+		#nav {
+			position: absolute; 
+			top: 70px; /* Set this to the height of the header */
+			bottom: 50px; /* Set this to the height of the footer */
+			left: 0; 
+			width: 230px;
+			overflow: auto; /* Scrollbars will appear on this frame only when there's enough content to require scrolling. To disable scrollbars, change to "hidden", or use "scroll" to enable permanent scrollbars */
+			background: #DAE9BC; 		
+		}
+		
+		.innertube {
+			margin: 15px; /* Provides padding for the content */
+		}
+		
+		p {
+			color: #555;
+		}
+
+		nav ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+		
+		nav ul a {
+			color: rgb(4, 75, 4);
+			text-decoration: none;
+		}
+				
+		/*IE6 fix*/
+		* html body{
+			padding: 50px 0 50px 230px; /* Set the first value to the height of the header, the third value to the height of the footer, and last value to the width of the nav */
+		}
+		
+		* html main{ 
+			height: 100%; 
+			width: 100%; 
+		}
+		
+		</style>
+		
+		
+	
+	</head>
+	
+	<body>		
+       
+		<header id="header">
+			<div class="row content">
+                <a href="C:\Users\Laurentiu SERBAN\Desktop\doctemplate-master\doctemplate-master\images\logo.png"><img class="logo" src="C:\Users\Laurentiu SERBAN\Desktop\doctemplate-master\doctemplate-master\images\logo.png"></a>
+                   </div>
+        </div>	
+        
+
+		</header>
+		
+            
+        
+		<main>
+            <title>My Example</title>
+
+
+            <time id="msg"></time>
+            
+            <script>
+              // Create a JavaScript Date object for the current date and time, and set the desired options.
+              var date = new Date(),
+                  options = { weekday: "long", month: "long", day: "numeric", year: "numeric" };
+             
+              // Convert to locale string and add a locale and the options
+              date = date.toLocaleString( "en-US", options );
+             
+              // Output the date to the above HTML element
+              document.getElementById("msg").innerHTML = date;
+            </script>
+            <h1 >Short description</h1>
+   
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
+            in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+            sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
+        
+                
+				
+			</div>
+		</main>
+
+		<nav id="nav">
+			<div class="innertube">
+				<h1>Heading</h1>
+                <input id="go" type="button" value="HOME" onclick="window.open('C:\Users\Laurentiu SERBAN\Documents\GitHub\otx\Index.html','popUpWindow','height=500, width=400, left=100, top=100, resizable=yes, scrollbars=yes, toolbar=yes, menubar=no, location=no, directories=no, status=yes');">
+				<ul>
+					<li><a href="C:\Users\Laurentiu SERBAN\Documents\GitHub\otx\BAL1.html">BAL1</a></li>
+					<li><a href="#">Link 2</a></li>
+					<li><a href="#">Link 3</a></li>
+					<li><a href="#">Link 4</a></li>
+					<li><a href="#">Link 5</a></li>
+				</ul>
+				
+
+			</div>
+		</nav>	
+		
+		<footer id="footer">
+			<div class="innertube">
+				<p>Footer...</p>
+			</div>
+		</footer>	
+			
+	</body>
+</html>
